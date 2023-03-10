@@ -7,7 +7,7 @@
     require("script/filter.js");
 
     if (!isset($_GET['mode']) || $_GET['mode'] == 'view') {
-        $filter_options = array('All', 'Incomplete', 'In Progress', 'Completed');
+        $filter_options = array('All', 'Incomplete', 'In Progress', 'Complete');
         $filter_selected = isset($_GET['filter']) ? $_GET['filter'] : 'All';
 
         if ($filter_selected != 'All') {
