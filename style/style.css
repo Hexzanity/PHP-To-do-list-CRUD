@@ -1,0 +1,52 @@
+<style>
+body{
+  background-color:white;
+  font-family: Arial;
+  background-image: url(IT.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 500px;
+  background-attachment: fixed;
+}
+.filter{
+  margin-left: 250px;
+}
+h2{
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  margin:auto;  
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.5);  
+  border: solid rgba(250, 250, 250, 0.5);
+}
+
+th, td {
+  text-align: left;
+  padding: 25px;
+  font-weight: bolder;
+}
+
+th {
+  background-color: #4CAF50;
+  color: black;
+  border: 1px solid #4CAF50;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  border: 1px solid #dddddd;
+}
+.taskadd{
+  margin-right: 230px;
+  padding: 5px;
+  font-weight: bold;
+}
+</style>
